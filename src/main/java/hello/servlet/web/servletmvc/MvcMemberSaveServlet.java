@@ -13,7 +13,7 @@ import java.io.IOException;
 /**
  * 회원 저장 - 컨트롤러
  */
-@WebServlet(name = "mvcMemberSaveServlet", urlPatterns = "servlet-mvc/members/save")
+@WebServlet(name = "mvcMemberSaveServlet", urlPatterns = "/servlet-mvc/members/save")
 public class MvcMemberSaveServlet extends HttpServlet {
 
   private MemberRepository memberRepository = MemberRepository.getInstance();
